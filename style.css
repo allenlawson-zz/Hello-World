@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Gotham-Ultra';
+    src: url('fonts/gotham/Gotham-Ultra.eot');
+    /* IE9 Compat Modes */
+    src: url('fonts/gotham/Gotham-Ultra.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/gotham/Gotham-Ultra.woff') format('woff'), /* Modern Browsers */
+    url('fonts/gotham/Gotham-Ultra.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/gotham/Gotham-Ultra.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('fonts/gotham/Gotham-Book.eot');
+    /* IE9 Compat Modes */
+    src: url('fonts/gotham/Gotham-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/gotham/Gotham-Book.woff') format('woff'), /* Modern Browsers */
+    url('fonts/gotham/Gotham-Book.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/gotham/Gotham-Book.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'MercuryTextG1-Bold';
+    src: url('fonts/mercury/MercuryTextG1-Bold.eot');
+    /* IE9 Compat Modes */
+    src: url('fonts/mercury/MercuryTextG1-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/mercury/MercuryTextG1-Bold.woff') format('woff'), /* Modern Browsers */
+    url('fonts/mercury/MercuryTextG1-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/mercury/MercuryTextG1-Bold.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+p.Ultra {
+    font-family: 'Gotham-Ultra', Georgia, sans-serif;
+}
+
+p.Book {
+    font-family: 'Gotham-Book', Georgia, sans-serif;
+}
+
+h1.Bold {
+    font-family: 'MercuryTextG1-Bold', Georgia, sans-serif;
+}
